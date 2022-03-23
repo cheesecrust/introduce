@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+}
+*::before *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-top: 100vh;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  margin-top: 2%;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 2%;
+  padding-bottom: 100px;
+}
+
+.nav-bar .nav-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-item a {
+  font-size: 2rem;
+  color: black;
+}
+
+.nav-item button {
+  border: 0;
+  outline: none;
+}
+
+.nav-item button:hover {
+  text-decoration: underline;
+}
+
+#tab-0,
+#tab-1,
+#tab-2 {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.prContent {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(245, 220, 140);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prContent .mainImg {
+  margin-right: 40px;
+  top: 8%;
+  width: 300px;
+  height: 300px;
+}
+
+.prContent .mainText {
+  line-height: 150%;
+  font-weight: 800;
+  color: rgba(121, 120, 120, 0.87);
+  font-size: 25px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.intContent {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(245, 200, 70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intContent .contentBox {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.intContent .contentBox i {
+  font-size: 100px;
+}
+
+.intContent .contentBox i:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.intContent .stockImg {
+  width: 700px;
+  height: 450px;
+}
+
+.intContent .workoutImg {
+  width: 700px;
+  height: 450px;
+}
+
+.intContent .studyImg {
+  width: 700px;
+  height: 450px;
+}
+
+.intContent .imgBox {
+  margin: 250px;
+}
+
+.intContent p {
+  font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 800;
+  color: darkgoldenrod;
+  margin-top: 40px;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(245, 210, 105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .phone {
+  font-size: 60px;
+}
+
+.contact .email {
+  font-size: 60px;
+}
+
+.contact .git {
+  font-size: 60px;
+}
